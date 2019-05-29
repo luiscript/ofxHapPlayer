@@ -33,7 +33,7 @@ extern "C" {
 #include <map>
 #include <cstdlib>
 #include <cmath>
-#include "AudioDecoder.h"
+#include "AudioDecoderHap.h"
 #include "AudioResampler.h"
 #include "MovieTime.h"
 #include "PacketCache.h"

@@ -26,7 +26,7 @@
  */
 
 
-#include "AudioDecoder.h"
+#include "AudioDecoderHap.h"
 extern "C" {
 #include <libavformat/avformat.h>
 #include <libavutil/time.h>
@@ -204,3 +204,4 @@ void ofxHap::AudioDecoder::flush()
 {
     avcodec_flush_buffers(_codec_ctx);
 }
+
